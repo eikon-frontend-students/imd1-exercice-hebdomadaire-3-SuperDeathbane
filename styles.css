@@ -1,0 +1,32 @@
+p {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  padding-top: 17px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 11px;
+  margin-top: 0px;
+}
+div {
+  border-radius: 10px;
+  border: 1px solid #563015;
+  background: #fff;
+  max-width: 153px;
+  max-height: 138px;
+  overflow: hidden;
+}
+div:hover {
+  box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
